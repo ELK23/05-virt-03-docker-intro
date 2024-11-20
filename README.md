@@ -25,65 +25,29 @@
 ### Задание 1
 
 ```
-
-"attributes": {
-            "bcrypt_hash": "$2a$10$10dkHz5bmmPG8wes/IeL6uan8ejGkTnhJkb0ZU4mc.5Pm8HSg7j3y",
-            "id": "none",
-            "keepers": null,
-            "length": 16,
-            "lower": true,
-            "min_lower": 1,
-            "min_numeric": 1,
-            "min_special": 0,
-            "min_upper": 1,
-            "number": true,
-            "numeric": true,
-            "override_special": null,
-            "result": "b5l31iDlED6wbRrB",
-            "special": false,
-            "upper": true
-          },
-```
-4. Отсутствует тип ресурса на 24 строке, не верное имя, должно начинваться с цифры, в ресурсе docker_container не верно заданно имя
-![image](https://github.com/user-attachments/assets/d4dd8fc2-2953-4d4e-b355-6a4f13472f97)
-
-
-
-
-
-```
-resource "docker_image" "nginx" {
-  name         = "nginx:latest"
-  keep_locally = true
-}
-
-resource "docker_container" "nginx1" {
-  image = docker_image.nginx.image_id
-  name  = random_password.random_string.result
-
-  ports {
-    internal = 80
-    external = 9090
-  }
-}
-```
-Данный ключ пропускает план, а это может привести к ошибкам, потому что код не проверенный
-![image](https://github.com/user-attachments/assets/5d75a291-0ef0-47ae-be41-c131fa68fb96)
-
-```
-{
-  "version": 4,
-  "terraform_version": "1.8.4",
-  "serial": 11,
-  "lineage": "65c1f51e-beba-db8d-7d4e-83c10689ebbb",
-  "outputs": {},
-  "resources": [],
-  "check_results": null
-}
+https://hub.docker.com/repository/docker/lagrangel/nginx-custom/settings
 ```
 
+### Задание 2
+
+![image](https://github.com/user-attachments/assets/57371442-84ae-473a-b5dd-eb335b8f40b9)
+![image](https://github.com/user-attachments/assets/86e2f1e0-2f64-4c90-b1e2-c4abc867df79)
+![image](https://github.com/user-attachments/assets/9f76ce95-f6b1-4e48-8276-83e4bfaea421)
+![image](https://github.com/user-attachments/assets/231fa57f-2dea-4b62-91b0-63e798ff6778)
 
 
-![image](https://github.com/user-attachments/assets/4c83269e-e67f-401e-805b-95c9e9bf80df)
-keep locally true
-![image](https://github.com/user-attachments/assets/a3a00ced-f9be-4803-8abc-56e465e0e0e3)
+### Задание 3
+
+![image](https://github.com/user-attachments/assets/fef4a4bb-27c3-4b67-a6af-cceb500ad4f0)
+Докер остановился потому что мы завершили процесс данного докера с помощью ctrl c
+![image](https://github.com/user-attachments/assets/809d607b-11d7-416e-9339-6a6de77d985a)
+![image](https://github.com/user-attachments/assets/192dc065-2a8e-49c9-bc8b-46ea88410c8c)
+порт 80 теперь не используется, потому что используется порт 81
+
+
+
+
+
+
+
+
