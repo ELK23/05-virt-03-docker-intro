@@ -62,6 +62,8 @@ https://hub.docker.com/repository/docker/lagrangel/nginx-custom/settings
 ![image](https://github.com/user-attachments/assets/9db74b8f-4c53-4ed8-a043-d0419cefd275)
 Появится предупреждение о том, что файл compose.yaml отсутствует. Docker предложит пересобрать проект, основываясь на оставшихся файлах.
 ![image](https://github.com/user-attachments/assets/4edf9bec-5b8f-40de-8c81-aa2f81bc65b9)
+![image](https://github.com/user-attachments/assets/076c7f68-8ad0-4ca0-8376-01923269c2a8)
+
 
 
 
