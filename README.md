@@ -59,6 +59,11 @@ https://hub.docker.com/repository/docker/lagrangel/nginx-custom/settings
 Результат: Будет запущен docker-compose.yaml, так как по умолчанию Docker Compose использует файл с именем docker-compose.yaml или docker-compose.yml при запуске команды.
 
 ![image](https://github.com/user-attachments/assets/0ad868ba-733b-4acf-b09b-b25a943d3e31)
+![image](https://github.com/user-attachments/assets/9db74b8f-4c53-4ed8-a043-d0419cefd275)
+Появится предупреждение о том, что файл compose.yaml отсутствует. Docker предложит пересобрать проект, основываясь на оставшихся файлах.
+![image](https://github.com/user-attachments/assets/4edf9bec-5b8f-40de-8c81-aa2f81bc65b9)
+
+
 
 
 
