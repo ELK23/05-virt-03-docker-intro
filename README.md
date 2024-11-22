@@ -53,6 +53,15 @@ https://hub.docker.com/repository/docker/lagrangel/nginx-custom/settings
 ![image](https://github.com/user-attachments/assets/fb0fc927-dcc7-4182-9a73-6cf88f2fb2c8)
 ![image](https://github.com/user-attachments/assets/2bcbd126-fa86-4ac0-8807-ccb3e9838418)
 
+### Задание 5
+![image](https://github.com/user-attachments/assets/a2749798-4163-4556-8fbd-0e15abf5e646)
+
+Результат: Будет запущен docker-compose.yaml, так как по умолчанию Docker Compose использует файл с именем docker-compose.yaml или docker-compose.yml при запуске команды.
+
+![image](https://github.com/user-attachments/assets/0ad868ba-733b-4acf-b09b-b25a943d3e31)
+
+
+
 
 
 
