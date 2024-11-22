@@ -45,6 +45,19 @@ https://hub.docker.com/repository/docker/lagrangel/nginx-custom/settings
 порт 80 теперь не используется, потому что используется порт 81
 
 
+### Задание 4
+
+![image](https://github.com/user-attachments/assets/2091dd52-abaf-424f-b160-b4239668e3ca)
+![image](https://github.com/user-attachments/assets/c1a00f7c-8a33-423f-a5b3-8baa2470fc74)
+![image](https://github.com/user-attachments/assets/aea6c689-923d-4620-86b9-1dc0a90b523b)
+![image](https://github.com/user-attachments/assets/fb0fc927-dcc7-4182-9a73-6cf88f2fb2c8)
+![image](https://github.com/user-attachments/assets/2bcbd126-fa86-4ac0-8807-ccb3e9838418)
+
+
+
+
+
+
 
 
 
